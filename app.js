@@ -20,4 +20,13 @@ function limparNome() {
     nomeAmigo.value = '';
 } 
 
+function sortearAmigo() {
+    limparLista();
 
+}
+
+
+function limparLista() {
+    let listaDeAmigos = document.getElementById("listaAmigos");
+    listaDeAmigos.innerHTML = "";
+}
