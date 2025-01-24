@@ -57,8 +57,8 @@ function sortearAmigo() {
     let textoResultado = `Seu amigo secreto é ${amigos[amigoSorteado]}`; // Texto base do resultado do sorteio
 
     // Se a lista de amigos estiver vazia, ativará o alerta , se não, vai colocar o resultado com a mensagem na tela
-    if (amigos.length === 0) {
-        alert ('Insira um amigo a lista');
+    if (amigos.length === 1) {
+        alert ('Insira pelo menos dois amigos para a lista');
     } else {
         li2.textContent = textoResultado;
         resultado.appendChild(li2);
