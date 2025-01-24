@@ -3,6 +3,8 @@
 
 Este é um projeto simples para realizar sorteios de **Amigo Secreto** online. Feito como desafio do projeto Oracle One
 
+![Challenge Amigo Secreto](https://github.com/user-attachments/assets/00ae35e0-cd17-46de-8edc-e7f60c981999)
+
 ## ⚙️ Funcionalidades
 
 - **Cadastro de Participantes**: Insira os nomes de todos os participantes.
@@ -35,5 +37,7 @@ Este é um projeto simples para realizar sorteios de **Amigo Secreto** online. F
  ### ou
 
 1. Entre no Site :
-
 [**https://juniper-perez.github.io/AmigoSecreto-ChallengeOne/**](https://juniper-perez.github.io/AmigoSecreto-ChallengeOne/)
+
+
+
