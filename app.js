@@ -7,6 +7,9 @@ function adicionarAmigo() {
     let li = document.createElement("li");  // Cria os elementos que vão ser colocados na lista
     nomeAmigo = nomeAmigo.replace(/[^a-zA-ZáéíóúãõâêîôûàèìòùäëïöüçÇ ]/g, ''); // Remove caracteres não permitidos
 
+    resultado.innerHTML = ''
+
+    
     if (!nomeAmigo || nomeAmigo.trim() === '' ) {  // Verifica se o nome é vazio ou contém apenas caracteres inválidos
         limparNome();
         alert('Por favor, insira um nome válido.');
